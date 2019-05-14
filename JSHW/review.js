@@ -1,0 +1,25 @@
+var god = 'with all my heart, soul and mind';
+var lucky = 7;
+var very = true;
+console.log(god,lucky,very);
+var equation1 = 30+2;
+var equation2 = 22-1;
+var equation3 = 30*3;
+console.log(equation1,equation2,equation3);
+var kae = ['kind','free-spirited','basic'];
+console.log(kae);
+console.log(kae.splice(1));
+console.log(kae);
+kae.push('self-control');
+kae.push('thankful');
+console.log(kae);
+kae.reverse();
+console.log(kae);
+console.log(typeof kae);
+console.log(typeof lucky);
+var num1 = 32;
+var ageSentence =  'I am ${num1} years old';
+console.log(ageSentence);
+var ageSentence = `I am ${num1} years old`;
+console.log(ageSentence);
+
